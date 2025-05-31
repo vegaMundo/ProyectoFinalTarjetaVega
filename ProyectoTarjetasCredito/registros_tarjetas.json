@@ -1,0 +1,242 @@
+[
+  {
+    "idCliente": 1,
+    "identificacion": 1000001,
+    "nombre": "Juan Pérez",
+    "fechaNacimiento": "1985-06-15T00:00:00",
+    "nit": "548754-K",
+    "direccion": "Zona 1",
+    "email": "juan.perez@mail.com",
+    "telefono": 55667788,
+    "tarjetas": [
+      {
+        "numeroTarjeta": 500001,
+        "clase": "Visa",
+        "saldo": 4500.00,
+        "limiteCredito": 10000.00,
+        "estadoPlastico": "Activa",
+        "nombre": "Juan Pérez",
+        "pin": 1234,
+        "idCliente": 1,
+        "fechaActivacion": "2024-01-01T00:00:00",
+        "fechavencimiento": "2027-01-01T00:00:00",
+        "fechaEntrega": "2024-01-05T00:00:00",
+        "estadoCuenta": [
+          {
+            "totalPagadoMes": 500.00,
+            "interesesGenerados": 75.00,
+            "saldoActual": 4500.00,
+            "creditoDisponible": 5500.00,
+            "pagoMinimo": 225.00,
+            "pagoContado": 4500.00,
+            "pagoAtrasado": 0.00,
+            "cuotasVencidas": 0
+          }
+        ],
+        "transacciones": [
+          {
+            "numeroTarjeta": 500001,
+            "fecha": "2025-05-01T10:30:00",
+            "idTransaccion": 1,
+            "monto": -300.00,
+            "descripcion": "Compra en supermercado",
+            "tipo": "Consumo"
+          },
+          {
+            "numeroTarjeta": 500001,
+            "fecha": "2025-05-03T09:00:00",
+            "idTransaccion": 2,
+            "monto": 500.00,
+            "descripcion": "Pago en línea",
+            "tipo": "Pago"
+          }
+        ],
+        "gestiones": [
+          {
+            "idGestion": 1,
+            "tipoGestion": "AumentoLimite",
+            "fechaSolicitud": "2025-04-28T00:00:00",
+            "estadoTransaccion": "Pendiente",
+            "idCliente": 1,
+            "nuevoLimiteCredito": 15000,
+            "nuevoPin": null,
+            "fechaRenovacion": null,
+            "fechaCancelacionTarjeta": "2025-06-01T00:00:00"
+          }
+        ]
+      },
+      {
+        "numeroTarjeta": 500004,
+        "clase": "MasterCard",
+        "saldo": 3200.00,
+        "limiteCredito": 9000.00,
+        "estadoPlastico": "Activa",
+        "nombre": "Juan Pérez",
+        "pin": 5678,
+        "idCliente": 1,
+        "fechaActivacion": "2024-02-10T00:00:00",
+        "fechavencimiento": "2027-02-10T00:00:00",
+        "fechaEntrega": "2024-02-12T00:00:00",
+        "estadoCuenta": [
+          {
+            "totalPagadoMes": 300.00,
+            "interesesGenerados": 60.00,
+            "saldoActual": 3200.00,
+            "creditoDisponible": 5800.00,
+            "pagoMinimo": 160.00,
+            "pagoContado": 3200.00,
+            "pagoAtrasado": 0.00,
+            "cuotasVencidas": 0
+          }
+        ],
+        "transacciones": [],
+        "gestiones": []
+      },
+      {
+        "numeroTarjeta": 500005,
+        "clase": "Amex",
+        "saldo": 1500.00,
+        "limiteCredito": 7000.00,
+        "estadoPlastico": "Activa",
+        "nombre": "Juan Pérez",
+        "pin": 9012,
+        "idCliente": 1,
+        "fechaActivacion": "2024-03-15T00:00:00",
+        "fechavencimiento": "2027-03-15T00:00:00",
+        "fechaEntrega": "2024-03-18T00:00:00",
+        "estadoCuenta": [
+          {
+            "totalPagadoMes": 200.00,
+            "interesesGenerados": 40.00,
+            "saldoActual": 1500.00,
+            "creditoDisponible": 5500.00,
+            "pagoMinimo": 120.00,
+            "pagoContado": 1500.00,
+            "pagoAtrasado": 0.00,
+            "cuotasVencidas": 0
+          }
+        ],
+        "transacciones": [],
+        "gestiones": []
+      }
+    ]
+  },
+  {
+    "idCliente": 2,
+    "identificacion": 1000002,
+    "nombre": "Ana Gómez",
+    "fechaNacimiento": "1990-03-22T00:00:00",
+    "nit": "879845-1",
+    "direccion": "Zona 10",
+    "email": "ana.gomez@mail.com",
+    "telefono": 44228866,
+    "tarjetas": [
+      {
+        "numeroTarjeta": 500002,
+        "clase": "MasterCard",
+        "saldo": 2000.00,
+        "limiteCredito": 8000.00,
+        "estadoPlastico": "Bloqueada",
+        "pin": 4321,
+        "idCliente": 2,
+        "fechaActivacion": "2023-06-15T00:00:00",
+        "fechavencimiento": "2026-06-15T00:00:00",
+        "fechaEntrega": "2023-06-18T00:00:00",
+        "estadoCuenta": [
+          {
+            "totalPagadoMes": 300.00,
+            "interesesGenerados": 25.00,
+            "saldoActual": 2000.00,
+            "creditoDisponible": 6000.00,
+            "pagoMinimo": 150.00,
+            "pagoContado": 2000.00,
+            "pagoAtrasado": 0.00,
+            "cuotasVencidas": 0
+          }
+        ],
+        "transacciones": [
+          {
+            "numeroTarjeta": 500002,
+            "fecha": "2025-05-02T14:15:00",
+            "idTransaccion": 3,
+            "monto": -100.00,
+            "descripcion": "Farmacia",
+            "tipo": "Consumo"
+          }
+        ],
+        "gestiones": [
+          {
+            "idGestion": 2,
+            "tipoGestion": "Renovacion",
+            "fechaSolicitud": "2025-05-05T00:00:00",
+            "estadoTransaccion": "Pendiente",
+            "idCliente": 2,
+            "nuevoLimiteCredito": null,
+            "nuevoPin": null,
+            "fechaRenovacion": "2025-06-01T00:00:00",
+            "fechaCancelacionTarjeta": "2025-07-01T00:00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idCliente": 3,
+    "identificacion": 1000003,
+    "nombre": "Carlos Ruiz",
+    "fechaNacimiento": "1988-10-05T00:00:00",
+    "nit": "331245-L",
+    "direccion": "Zona 18",
+    "email": "carlos.ruiz@mail.com",
+    "telefono": 33001122,
+    "tarjetas": [
+      {
+        "numeroTarjeta": 500003,
+        "clase": "Visa",
+        "saldo": 1500.50,
+        "limiteCredito": 4000.00,
+        "estadoPlastico": "Vencida",
+        "pin": 7890,
+        "idCliente": 3,
+        "fechaActivacion": "2021-09-10T00:00:00",
+        "fechavencimiento": "2024-09-10T00:00:00",
+        "fechaEntrega": "2021-09-12T00:00:00",
+        "estadoCuenta": [
+          {
+            "totalPagadoMes": 200.00,
+            "interesesGenerados": 50.00,
+            "saldoActual": 1500.50,
+            "creditoDisponible": 2499.50,
+            "pagoMinimo": 100.00,
+            "pagoContado": 1500.50,
+            "pagoAtrasado": 50.00,
+            "cuotasVencidas": 1
+          }
+        ],
+        "transacciones": [
+          {
+            "numeroTarjeta": 500003,
+            "fecha": "2025-05-04T16:00:00",
+            "idTransaccion": 4,
+            "monto": -200.00,
+            "descripcion": "Tienda online",
+            "tipo": "Consumo"
+          }
+        ],
+        "gestiones": [
+          {
+            "idGestion": 3,
+            "tipoGestion": "CambioPin",
+            "fechaSolicitud": "2025-04-20T00:00:00",
+            "estadoTransaccion": "Aprobada",
+            "idCliente": 3,
+            "nuevoLimiteCredito": null,
+            "nuevoPin": "4567",
+            "fechaRenovacion": null,
+            "fechaCancelacionTarjeta": "2025-05-10T00:00:00"
+          }
+        ]
+      }
+    ]
+  }
+]
